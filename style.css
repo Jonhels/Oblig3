@@ -34,7 +34,8 @@ article {
 
 header,
 article,
-.signature {
+.signature,
+button {
     box-shadow: 2px 2px 5px 1px #6d72743b;
 }
 
@@ -93,7 +94,8 @@ footer a {
     margin: 5px;
 }
 
-.signature, .footer-div {
+.signature,
+.footer-div {
     margin: 10%;
 }
 
@@ -102,9 +104,58 @@ footer a {
     flex-direction: column;
 }
 
-.footer-div a{
+.footer-div a {
     text-decoration: none;
     color: #000000;
 }
 
-@media only screen and (max-width: 600px) {}
+.article-form {
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 230px;
+}
+
+input[type=text],
+input[type=emailaddr] {
+    height: 30px;
+}
+
+input[type=text],
+input[type=emailaddr],
+textarea,
+select {
+    margin: 15px;
+}
+
+input[type=text],
+input[type=emailaddr],
+textarea,
+select {
+    border: 1px solid #5A5A5A;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    margin-left: 30%;
+    border-radius: 5px;
+    background-color: noneS;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 600px) {}

@@ -39,32 +39,33 @@
                 user feedback, ideas and opinions. Contact us through the form and leave us a message!
             </p>
         </article>
-        <form id="#" action="./formsubmit.html">
-            <div>
-                <label for="firstname">Full name</label>
-                <input type="text" name="full_name" placeholder="Firstname LastName" autofocus="autofocus" value=""
-                    required>
-            </div>
-            <div>
-                <label for="emailaddr">Email address</label>
-                <input type="emailaddr" type="text" name="emailaddr" required>
-            </div>
-            <div>
-                <label for="rating">Select game rating</label>
-                <select id="rating" name="rating" required>
-                    <option value="" selected>none</option>
-                    <option value="bad">Bad</option>
-                    <option value="good">Good</option>
-                    <option value="super">Super</option>
-                </select>
-            </div>
-            <div>
-                <textarea name="textarea" id="textare" cols="30" rows="10">
-
-                </textarea>
-            </div>
-            <button type="submit" name="submit">Send expirience</button>
-        </form>
+        <article class="article-form">
+            <form id="form" action="./formsubmit.html">
+                <div>
+                    <label for="firstname">Full name:</label>
+                    <input type="text" name="full_name" placeholder="Name" autofocus="autofocus" value=""
+                        required>
+                </div>
+                <div>
+                    <label for="emailaddr">Email address:</label>
+                    <input type="emailaddr" type="text" name="emailaddr" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="rating">Select game rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="" selected>none</option>
+                        <option value="bad">Bad</option>
+                        <option value="good">Good</option>
+                        <option value="super">Super</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea name="textarea" id="textare" cols="30" rows="10"
+                        placeholder="Write feedback here"></textarea>
+                </div>
+                <button type="submit" name="submit">Send expirience</button>
+            </form>
+        </article>
     </main>
     <footer>
         <div class="signature">
