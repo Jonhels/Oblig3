@@ -4,10 +4,107 @@
     box-sizing: border-box;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
 nav {
-
+    width: 60vw;
 }
 
-@media only screen and (max-width: 600px) {
-    
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
+
+nav ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+main,
+article {
+    margin: 5% 5%;
+}
+
+header,
+article,
+.signature {
+    box-shadow: 2px 2px 5px 1px #6d72743b;
+}
+
+.main-h1 {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article p,
+footer p {
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 2px 2px 5px 1px #cdcdcd3b;
+    margin: 5% 0;
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+}
+
+.signature img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.signature img,
+.signature p {
+    margin: 5px;
+}
+
+.logo {
+    width: 200px;
+}
+
+footer iframe {
+    width: 300px;
+    height: 300px;
+}
+
+footer a {
+    margin: 5px;
+}
+
+.signature, .footer-div {
+    margin: 10%;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div a{
+    text-decoration: none;
+    color: #000000;
+}
+
+@media only screen and (max-width: 600px) {}
